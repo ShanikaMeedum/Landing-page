@@ -1,0 +1,148 @@
+/*-------------------------------
+color,font and variables setup
+------------------------------*/
+
+
+:root{
+
+    --c-primary:   #7cfc00 ;
+    --c-secondary: #008000;
+    --c-background: #D5F5E3 ;
+    --c-dark:#212F3C;
+    --c-black:#000000 ;
+
+  
+
+    --font-base:"poppins",sans-serif;
+}
+
+body{
+    font-family: var(--font-base) ;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.h1 .h2 .h3 .h4 .h5 .h6 {
+    font-weight: 600;
+}
+p{
+    font-family: var(--font-base);
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--c-primary);
+}
+
+a:hover{
+    color:var(--c-secondary);
+}
+
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+/*-------------------------------
+Button css setup
+------------------------------*/
+.btn{
+    font-weight: 600 !important;
+}
+.btn-primary{
+    background-color: var(--c-primary) !important;
+}
+
+.btn-primary:hover{
+    background-color: var(--c-secondary) !important;
+}
+.btn-light{
+    background-color: var(--c-background) !important;
+}
+
+/*-------------------------------
+Navbar css setup
+------------------------------*/
+.navbar{
+    font-family: var(--font-base);
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-dark{
+    background-color: var(--c-black);
+}
+/*-------------------------------
+Hero css setup
+------------------------------*/
+#Hero{
+    background: url(../img/home/F.jpg);
+    background-position: top;
+}
+.herotext{
+    font-size: 96px;
+    font-weight: 700;
+
+}
+
+/*-------------------------------
+About Us css setup
+------------------------------*/
+
+.brand-title{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--font-base);
+}
+
+.brand-p{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: var(--font-base);
+}
+
+.brand-title-light{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--font-base);
+    color: var(--c-background);
+
+}
+
+.brand-p-2{
+    font-size: 18px;
+    font-family: var(--font-base);
+}
+.img{
+    width: 100px;
+    height:150;
+}
+
+
+/*-------------------------------
+Iconbox setup
+------------------------------*/
+.iconbox{
+    background-color: var(--c-background);
+    color:var(--c-primary);
+    width:60px;
+    height:50px;
+    align-items: center;
+    font-size: 35px;
+    text-align: center;
+    flex:none;
+
+
+}
+
+/*-------------------------------
+Iconbox setup
+------------------------------*/
+
+.f{
+    background-color: var(--c-black);
+}
+
